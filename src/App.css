@@ -294,9 +294,19 @@ body {
   margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.rules-text,
-.summary-text {
-  color: #000000;  /* black */
+.rules-popup {
+  color: #000000 !important; /* force black text */
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #ffffff; /* light background so black text is visible */
+  padding: 20px;
+  border-radius: 12px;
+}
+.summary-section {
+  color: #000000 !important;  /* make text black */
+  background-color: #ffffff;  /* light bg for contrast */
+  padding: 20px;
+  border-radius: 12px;
   font-size: 16px;
   line-height: 1.6;
 }
