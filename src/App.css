@@ -1,4 +1,9 @@
-/* App.css - aesthetic girlboss edition 💖 */
+body {
+  color: #ffffff; /* Set to your default text color */
+  background-color: #1a1a1a; /* Or your background */
+  font-family: 'Poppins', sans-serif; /* Or whatever font you're using */
+}
+
 
 body {
   margin: 0;
@@ -288,4 +293,15 @@ body {
   border-radius: 0; /* full rectangle! */
   margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.rules-text,
+.summary-text {
+  color: #000000;  /* black */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
