@@ -32,9 +32,8 @@ _(Try it on both desktop and mobile for the full experience!)_
 
 ![Mind Muse Screenshot](public/preview.png)
 
-_(Or add a GIF here if you want!)_
 
----
+
 
 ## 🛠 Built With
 
