@@ -112,6 +112,16 @@ const [showRules, setShowRules] = useState(false);
         <div className="question-box">
           <h2>🏁 Quiz Completed!</h2>
           <p className="final-score">💯 Your Score: {score} / {questions.length}</p>
+          {score === questions.length ? (
+  <p className="result-message">🌟 Perfect Score! You're a genius!</p>
+) : score >= questions.length * 0.7 ? (
+  <p className="result-message">🎉 Great job! You know your stuff!</p>
+) : score >= questions.length * 0.4 ? (
+  <p className="result-message">👍 Good effort! Keep practicing!</p>
+) : (
+  <p className="result-message">😢 Don't worry, try again!</p>
+)}
+
   
           <div className="summary-section">
             <h3>📝 Summary:</h3>

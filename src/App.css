@@ -362,6 +362,13 @@ body {
   color: #7d5a99;
   background-color: transparent;
 }
+.result-message {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff5d8f;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 
 
