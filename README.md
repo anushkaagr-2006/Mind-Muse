@@ -1,48 +1,69 @@
-🌸 Mind Muse - Fun Quiz App
-Welcome to Mind Muse — a fun, interactive, and aesthetic quiz app built using React and Vite! ✨
 
+# 🌸 Mind Muse - A Fun and Aesthetic Quiz App
 
-🧠 Features
-🌟 Beautiful start screen with logo and animated buttons
+Welcome to **Mind Muse** — a beautiful, interactive, and exciting quiz application!  
+Test your knowledge, get instant feedback, and see your final performance — all in a fun pastel-themed interface ✨
 
-📜 Popup Rule Book explaining the quiz rules
+---
 
-🧩 10 Multiple Choice Questions
+## 🚀 Live Site
+👉 [Visit Mind Muse](https://mind-muse.vercel.app)
 
-🎯 Instant feedback after each question
+---
 
-🧠 Score tracker and progress bar
+## 🎯 Features
+- 🌸 Pretty welcome screen with custom logo and Start/Rules buttons
+- 📜 Rule Book popup explaining how the quiz works
+- 🧩 10 multiple choice questions
+- 🎯 Immediate feedback after each question
+- 🧠 Score tracker and animated progress bar
+- 🎉 Summary of your performance at the end
+- 🔄 Option to restart the quiz
+- 📱 Fully responsive design (works on laptop and mobile)
+- 🎶 Fun click and correct answer sounds
+- 🌈 Pastel cute color theme
 
-🎉 Summary of performance at the end
+---
 
-🔄 Restart Quiz option
+## 🛠 Built With
+- React
+- Vite
+- Framer Motion
+- HTML5 + CSS3 (Custom pastel styles)
+- Hosted on Vercel
 
-📱 Fully responsive (works great on desktop and mobile)
-
-🚀 Deployed live at: mind-muse.vercel.app
-
-🛠 Built With
-React
-
-Vite
-
-Framer Motion
-
-Custom CSS (pastel aesthetic theme)
-
-Hosted on Vercel
-
+---
 
 ## 📸 Screenshots
 
-| Start Screen | Quiz Screen | Summary |
+| Welcome Screen | Quiz Screen | Summary Screen |
 |:---:|:---:|:---:|
-| ![Start Screen](public/start-screen.png) | ![Quiz Screen](public/quiz-screen.png) | ![Result Screen](public/result-screen.png) |
+| ![Welcome](public/start-screen.png) | ![Quiz](public/quiz-screen.png) | ![Summary](public/result-screen-screen.png) |
 
-		
 
-🚀 Live Demo
-👉 Visit Mind Muse here
+---
 
-👩‍💻 Developer
-Made with Love by Anushka
+## 🧠 How to Use
+
+1. Open the app and click **Start Quiz** 🎯
+2. Read the rules if needed 📜
+3. Answer 10 questions — get instant feedback after each!
+4. See your final score and summary 🎉
+5. Click **Restart Quiz** to play again 🔄
+
+---
+
+## 🎀 Developer
+
+Made with Love by **Anushka**
+
+---
+
+## 📜 License
+
+This project is open-source for learning purposes! 🎓  
+Feel free to use, modify, and share with credits.
+
+---
+
+# 🌈 Thank You for Visiting Mind Muse!
