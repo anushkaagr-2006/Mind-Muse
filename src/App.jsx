@@ -196,8 +196,6 @@ const [showRules, setShowRules] = useState(false);
     Made with Love by <strong>Anushka</strong>
   </footer>
 </div>
-  
-    </div>
   );
   
 }
