@@ -331,12 +331,7 @@ body {
   transition: width 0.4s ease-in-out;
 }
 .question-text {
-  color: #ffffff !important;  /* 🔥 force it to be white */
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  z-index: 999;
-  background-color: transparent;
+  color: #000000 !important;
 }
+
 
