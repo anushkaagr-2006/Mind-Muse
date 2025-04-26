@@ -85,6 +85,10 @@ const [showRules, setShowRules] = useState(false);
         
         <div className="start-screen">
           <img src= {logo} alt="Mind Muse Logo" className="intro-banner" />
+          <footer className="footer">
+  Made with Love by <strong>Anushka</strong>
+</footer>
+
 
           <h1>🌟 Welcome to Mind Muse 🌟</h1>
           <p className="tagline">Challenge Yourself!!</p>

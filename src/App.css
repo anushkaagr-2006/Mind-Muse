@@ -354,6 +354,14 @@ body {
     margin: 20px auto;
   }
 }
+.footer {
+  margin-top: 30px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #7d5a99;
+  background-color: transparent;
+}
 
 
 
