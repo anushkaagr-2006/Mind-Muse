@@ -35,11 +35,15 @@ h1 {
 
 .question-box {
   background: #fff;
-  border-radius: 20px;
-  padding: 25px;
-  margin-top: 20px;
+  border-radius: 24px;
+  padding: 40px;
+  margin: 30px auto;
+  max-width: 1000px;
+  width: 95vw;
   box-shadow: 0 6px 20px rgba(255, 192, 203, 0.2);
+  transition: all 0.3s ease;
 }
+
 
 h2 {
   color: #590d22;
@@ -343,5 +347,13 @@ body {
 .question-text {
   color: #000000 !important;
 }
+@media (max-width: 600px) {
+  .question-box {
+    width: 95vw;
+    padding: 20px;
+    margin: 20px auto;
+  }
+}
+
 
 
