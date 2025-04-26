@@ -38,7 +38,7 @@ Test your knowledge, get instant feedback, and see your final performance — al
 
 | Welcome Screen | Quiz Screen | Summary Screen |
 |:---:|:---:|:---:|
-| ![Welcome](public/start-screen.png) | ![Quiz](public/quiz-screen.png) | ![Summary](public/result-screen-screen.png) |
+| ![Welcome](public/start-screen.png) | ![Quiz](public/quiz-screen.png) | ![Summary](public/summary-screen.png) |
 
 
 ---
