@@ -85,10 +85,6 @@ const [showRules, setShowRules] = useState(false);
         
         <div className="start-screen">
           <img src= {logo} alt="Mind Muse Logo" className="intro-banner" />
-          <footer className="footer">
-  Made with Love by <strong>Anushka</strong>
-</footer>
-
 
           <h1>🌟 Welcome to Mind Muse 🌟</h1>
           <p className="tagline">Challenge Yourself!!</p>
@@ -138,6 +134,7 @@ const [showRules, setShowRules] = useState(false);
   
           <button onClick={handleRestart}>🔄 Restart Quiz</button>
         </div>
+        
       ) : (
         // ❓ QUIZ SCREEN
         <AnimatePresence mode="wait">
@@ -147,6 +144,7 @@ const [showRules, setShowRules] = useState(false);
     style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
   ></div>
 </div>
+
 
           <motion.div
             key={currentQuestion}
@@ -194,6 +192,10 @@ const [showRules, setShowRules] = useState(false);
           </motion.div>
         </AnimatePresence>
       )}
+      <footer className="footer">
+    Made with Love by <strong>Anushka</strong>
+  </footer>
+</div>
   
     </div>
   );
