@@ -1,61 +1,48 @@
-# 🧠 Mind Muse
-
-**Mind Muse** is a beautiful and interactive quiz web app built with React and Vite.  
-Designed with smooth animations, clean UI, and mobile responsiveness — it makes answering questions feel ✨fun and aesthetic✨.
-
-> Created as part of my journey into frontend development and React! 💻🌸
-
----
-
-## 🌟 Features
-
-- 💡 **Start Screen** – Welcome users with the game name & logo  
-- 📋 **Rule Book Popup** – Shows how the quiz works before it begins  
-- 🧠 **Multiple-Choice Questions** – With instant feedback on answers  
-- 📊 **Score Tracker** – Live score updates during the quiz  
-- 📝 **Summary Section** – End-of-quiz results with all your answers  
-- 🔄 **Restart Button** – Play again without refreshing  
-- 📱 **Fully Responsive** – Looks great on both mobile and desktop  
-- 💃 **Framer Motion** – Smooth animated transitions
-
----
-
-## 🚀 Live Demo
-
-👉 [mind-muse.vercel.app](https://mind-muse.vercel.app)
-
-_(Try it on both desktop and mobile for the full experience!)_
-
----
-
-## 🎥 Preview
-
-![Mind Muse Screenshot](public/preview.png)
+🌸 Mind Muse - Fun Quiz App
+Welcome to Mind Muse — a fun, interactive, and aesthetic quiz app built using React and Vite! ✨
 
 
+🧠 Features
+🌟 Beautiful start screen with logo and animated buttons
+
+📜 Popup Rule Book explaining the quiz rules
+
+🧩 10 Multiple Choice Questions
+
+🎯 Instant feedback after each question
+
+🧠 Score tracker and progress bar
+
+🎉 Summary of performance at the end
+
+🔄 Restart Quiz option
+
+📱 Fully responsive (works great on desktop and mobile)
+
+🚀 Deployed live at: mind-muse.vercel.app
+
+🛠 Built With
+React
+
+Vite
+
+Framer Motion
+
+Custom CSS (pastel aesthetic theme)
+
+Hosted on Vercel
 
 
-## 🛠 Built With
+## 📸 Screenshots
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
-- Custom CSS
+| Start Screen | Quiz Screen | Summary |
+|:---:|:---:|:---:|
+| ![Start Screen](public/start-screen.png) | ![Quiz Screen](public/quiz-screen.png) | ![Result Screen](public/result-screen.png) |
 
----
+		
 
-## 💖 Made With Love By
+🚀 Live Demo
+👉 Visit Mind Muse here
 
-**Anushka** `(@anushkaagr-2006)`  
-Crafted with curiosity, caffeine, and lots of debugging 😌💅
-
----
-
-## 📜 License
-
-Open-source and free to use!  
-Feel free to fork, explore, and create your own version 🌱
-
----
-
-> ✨ Mind Muse was my very first React project — and I'm so proud of how far it's come 🥹
+👩‍💻 Developer
+Made with Love by Anushka
