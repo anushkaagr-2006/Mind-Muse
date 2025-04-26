@@ -315,3 +315,24 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+.progress-container {
+  width: 90%;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  height: 12px;
+  margin: 20px auto 10px auto;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border-radius: 12px;
+  transition: width 0.4s ease-in-out;
+}
+.question-text {
+  color: #ffffff; /* White text so it's visible on dark bg */
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}

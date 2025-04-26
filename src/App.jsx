@@ -137,6 +137,13 @@ const [showRules, setShowRules] = useState(false);
       ) : (
         // ❓ QUIZ SCREEN
         <AnimatePresence mode="wait">
+          <div className="progress-container">
+  <div
+    className="progress-bar"
+    style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
+  ></div>
+</div>
+
           <motion.div
             key={currentQuestion}
             className="question-box"
@@ -147,8 +154,8 @@ const [showRules, setShowRules] = useState(false);
           >
             <p className="score-tracker">🧠 Score: {score} / {questions.length}</p>
             <h2>Question {currentQuestion + 1} of {questions.length}</h2>
-            <p>{questions[currentQuestion].question}</p>
-  
+            <p className="question-text">{questions[currentQuestion].question}</p>
+
             <div className="options">
               {questions[currentQuestion].options.map((option, index) => (
                 <button
