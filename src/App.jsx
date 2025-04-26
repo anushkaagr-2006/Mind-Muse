@@ -137,9 +137,9 @@ const [showRules, setShowRules] = useState(false);
       ) : (
         // ❓ QUIZ SCREEN
         <AnimatePresence mode="wait">
-          <div className="progress-container">
+          <div className="progress-bar">
   <div
-    className="progress-bar"
+    className="progress"
     style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
   ></div>
 </div>
